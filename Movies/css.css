@@ -1,0 +1,66 @@
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: linear-gradient(#ff3535, #D20000,#292929);
+    min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+input[type=number] {
+    width: 160px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=number]:focus {
+    /* width: 100%; */
+    
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.19);  }
+   
+button{
+    width: 160px;
+}
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 55px;
+    bottom: 30px;
+    border-radius: 50px;
+}
+  
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  #story{
+    width: 255px;
+    height: 115px;
+    background-color: transparent;
+    border: 2px solid red;
+    box-shadow: 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 140px;
+  }
+  .btn{
+   margin-top: 10px;
+  margin-left: 45px;
+  }
+  
